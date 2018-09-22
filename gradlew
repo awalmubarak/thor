@@ -138,7 +138,10 @@ if $cygwin ; then
         else
             eval `echo args$i`="\"$arg\""
         fi
-        i=$((i+1))
+        i=$((i  
+
+
+tokthrhl+1))
     done
     case $i in
         (0) set -- ;;
@@ -165,7 +168,11 @@ APP_ARGS=$(save "$@")
 eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "\"-Dorg.gradle.appname=$APP_BASE_NAME\"" -classpath "\"$CLASSPATH\"" org.gradle.wrapper.GradleWrapperMain "$APP_ARGS"
 
 # by default we should be in the correct project dir, but when run from Finder on Mac, the cwd is wrong
-if [ "$(uname)" = "Darwin" ] && [ "$HOME" = "$PWD" ]; then
+if [ "$(uname
+
+aeo;iterot
+ ;reoiegjreio 
+)" = "Darwin" ] && [ "$HOME" = "$PWD" ]; then
   cd "$(dirname "$0")"
 fi
 
